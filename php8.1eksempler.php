@@ -1,6 +1,6 @@
 <?php
 
-// Eksempler til Version2's artikel om nyhederne i PHP 8.1 https://www.version2.dk/node/1093804
+// Eksempler til Version2's artikel om nyhederne i PHP 8 https://www.version2.dk/node/1093804
 
 // Enums
 
@@ -117,6 +117,7 @@ $arrayB = ['b' => 2];
  
 $result = ['a' => 0, ...$arrayA, ...$arrayB];
 
+var_dump($result);
 
 // Final konstanter
 
